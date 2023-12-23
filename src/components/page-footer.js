@@ -27,20 +27,12 @@ export const PageFooter = () => {
         <div className="page-footer-grid__info">
           <div className="page-footer-info__message">
             <p className="page-footer-message__headline">
-              <span>This sample application is brought to you by&nbsp;</span>
-              <PageFooterHyperlink path="https://auth0.com/">
-                Auth0
+              <span>Proudly innovating imaginations since 2021;</span>
+              <PageFooterHyperlink path="https://inoculate.media/">
+                Inoculate Media
               </PageFooterHyperlink>
             </p>
-            <p className="page-footer-message__description">
-              <PageFooterHyperlink path="https://auth0.com/docs/quickstarts/">
-                <span>
-                  Securely implement authentication using Auth0 on any stack and
-                  any device&nbsp;
-                </span>
-                <u>in less than 10 minutes</u>
-              </PageFooterHyperlink>
-            </p>
+          
           </div>
           <div className="page-footer-info__button">
             <a
