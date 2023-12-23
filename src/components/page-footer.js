@@ -16,13 +16,13 @@ export const PageFooter = () => {
       label: "Developer Blog",
     },
     {
-      path: "https://inoculate.media/contact/index.html",
+      path: "https://auth0.com/contact-us",
       label: "Contact an Expert",
     },
   ];
 
   return (
-     <footer className="page-footer">
+    <footer className="page-footer">
       <div className="page-footer-grid">
         <div className="page-footer-grid__info">
           <div className="page-footer-info__message">
@@ -46,11 +46,11 @@ export const PageFooter = () => {
             <a
               id="create-account-button"
               className="button button--secondary"
-              href="https://dev-hxoz48d37guyzgvs.us.auth0.com/u/signup?state=hKFo2SA4VlVCSGp6U0xRNFpPTU9NM3RBajBSZzVIZGJHNjdpSqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEkxaFRldEwxcGpZbVNEUnpGMGxlcjFYSU1kRFBJejdLo2NpZNkgeVFXUlA5U1pUZHhEYmVVM3hDTk4wVFpkQ3RQUDRPYnA"
+              href="https://auth0.com/signup"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Create Free Account
+              Create Free Auth0 Account
             </a>
           </div>
           <div className="page-footer-info__resource-list">
@@ -70,13 +70,13 @@ export const PageFooter = () => {
           <div className="page-footer-brand">
             <img
               className="page-footer-brand__logo"
-              src="https://github.com/inoculate23/media/blob/main/assets/inoculate_200_trans.png?raw=true"
-              alt="InoculateMedia"
-              width="50"
-              height="50"
+              src="https://cdn.auth0.com/blog/hello-auth0/auth0-shield.svg"
+              alt="Auth0"
+              width="20"
+              height="22.22"
             />
-            <PageFooterHyperlink path="https://inoculate.media/">
-            Inoculate Media
+            <PageFooterHyperlink path="https://auth0.com/">
+              Auth0 Inc
             </PageFooterHyperlink>
           </div>
         </div>
