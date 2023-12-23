@@ -22,27 +22,35 @@ export const PageFooter = () => {
   ];
 
   return (
-    <footer className="page-footer">
+     <footer className="page-footer">
       <div className="page-footer-grid">
         <div className="page-footer-grid__info">
           <div className="page-footer-info__message">
             <p className="page-footer-message__headline">
-              <span>Proudly innovating imaginations since 2021;</span>
-              <PageFooterHyperlink path="https://inoculate.media/">
-                Inoculate Media
+              <span>This sample application is brought to you by&nbsp;</span>
+              <PageFooterHyperlink path="https://auth0.com/">
+                Auth0
               </PageFooterHyperlink>
             </p>
-          
+            <p className="page-footer-message__description">
+              <PageFooterHyperlink path="https://auth0.com/docs/quickstarts/">
+                <span>
+                  Securely implement authentication using Auth0 on any stack and
+                  any device&nbsp;
+                </span>
+                <u>in less than 10 minutes</u>
+              </PageFooterHyperlink>
+            </p>
           </div>
           <div className="page-footer-info__button">
             <a
               id="create-account-button"
               className="button button--secondary"
-              href="https://auth0.com/signup"
+              href="https://dev-hxoz48d37guyzgvs.us.auth0.com/u/signup?state=hKFo2SA4VlVCSGp6U0xRNFpPTU9NM3RBajBSZzVIZGJHNjdpSqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEkxaFRldEwxcGpZbVNEUnpGMGxlcjFYSU1kRFBJejdLo2NpZNkgeVFXUlA5U1pUZHhEYmVVM3hDTk4wVFpkQ3RQUDRPYnA"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Create Free Auth0 Account
+              Create Free Account
             </a>
           </div>
           <div className="page-footer-info__resource-list">
@@ -63,12 +71,12 @@ export const PageFooter = () => {
             <img
               className="page-footer-brand__logo"
               src="https://inoculate.media/assets/logo.gif"
-              alt="Auth0"
-              width="20"
-              height="22.22"
+              alt="InoculateMedia"
+              width="50"
+              height="50"
             />
-            <PageFooterHyperlink path="https://auth0.com/">
-              Auth0 Inc
+            <PageFooterHyperlink path="https://inoculate.media/">
+            Inoculate Media
             </PageFooterHyperlink>
           </div>
         </div>
