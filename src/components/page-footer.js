@@ -16,7 +16,7 @@ export const PageFooter = () => {
       label: "Developer Blog",
     },
     {
-      path: "mailto:info@inoculate.media",
+      path: "https://inoculate.media/contact/index.html",
       label: "Contact an Expert",
     },
   ];
