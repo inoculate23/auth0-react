@@ -70,7 +70,7 @@ export const PageFooter = () => {
           <div className="page-footer-brand">
             <img
               className="page-footer-brand__logo"
-              src="https://inoculate.media/assets/logo.gif"
+              src="https://github.com/inoculate23/media/blob/main/assets/inoculate_200_trans.png?raw=true"
               alt="InoculateMedia"
               width="50"
               height="50"
